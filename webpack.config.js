@@ -24,7 +24,7 @@ const config = {
     // whatever you want to call the output, conventially bundle.js
     filename: 'bundle.js',
     // images: to handle our routing predicament
-    publicPath: 'build/'
+    publicPath: '/trivia-game/'
   },
   // in webpack 2, loaders are module rules [{}]
   module: {

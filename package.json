@@ -5,7 +5,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "set NODE_ENV=production npm run clean && webpack -p",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
